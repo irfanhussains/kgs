@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SITE TITTLE -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="assets/img/logo_old.png" rel="icon" />
+<title>Karachi School Guide</title>
+
+<!-- PLUGINS CSS STYLE -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/plugins/jquery-ui.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Monda:400,700&display=swap" rel="stylesheet">
+<link href="assets/css/bootstrap-multiselect.css" rel="stylesheet">
+<link href="assets/css/bootstrap-datepicker.min.css" rel="stylesheet" />
+<link href="assets/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+<link href="assets/css/toastr.css" rel="stylesheet" />
+<link href="assets/css/dropzone.css" rel="stylesheet" />
+
+
+<!-- Custom css -->
+<link href="assets/css/style.css" rel="stylesheet" />
+<link href="assets/css/style-custom.css" rel="stylesheet" />
+
+
+
+</head>
+<body id="body">
+    <div id="pageTop">
+    <div class="container">
+    	<div class="row">
+        	<div class="col-md-12">
+                <div class="pull-left social">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>            
+                    <a href="#" class="fab fa-youtube"></a>                        
+                    <a href="#" class="fab fa-instagram"></a>                                            
+                </div>
+                <div class="pull-right">
+                    <a class="btn  btn-sm" href="/Schools">School Login</a>
+                    <a class="btn  btn-sm" href="/Tutors/Manage">Tutor Login</a>
+                    <a class="btn  btn-sm" href="/">Sign In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="navbar navbar-expand-sm navbar-light">
+    <div class="container">
+    	<div class="row">
+        <div class="col-sm-2">
+            <a href="/"><img src="assets/img/logo_old.png" alt="Karachi School Guide" class="logo-resize"></a>
+        </div>
+        <div class="col-sm-10">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link color1" href="/">
+                            <div class="d-flex flex-column text-center">
+                                <i class="fas fa-home fa-1x mb-1"></i>
+                                <span>Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color2" href="/Jobs">
+                            <div class="d-flex flex-column text-center">
+                                <i class="fas fa-exclamation-circle fa-1x mb-1 "></i>
+                                <span>Jobs</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color3" href="/Parents">
+                            <div class="d-flex flex-column text-center ">
+                                <i class="fas fa-school fa-1x mb-1 "></i>
+                                <span>Schools</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color4" href="/Tutors">
+                            <div class="d-flex flex-column text-center">
+                                <i class="fas fa-id-badge fa-1x mb-1 "></i>
+                                <span>Tutors</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color1" href="/Resources">
+                            <div class="d-flex flex-column text-center ">
+                                <i class="fas fa-book fa-1x mb-1 "></i>
+                                <span>Resources</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color2" href="#">
+                            <div class="d-flex flex-column text-center">
+                                <i class="fas fa-exclamation-circle fa-1x mb-1 "></i>
+                                <span>Contact</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<!-- ====================================
+———	BREADCRUMB
+===================================== -->
+<section class="banner">
+    <div class="container text-white">
+        <h2>Welcome to KSG</h2>
+            <div style="clear:both"></div>
+    </div>
+
+</section>
+
+<header class="header main-wrapper" style="display:none;">
+
+    <!-- TOP INFO BAR -->
+
+    <div class=" bg-stone d-none d-md-block top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 d-none d-lg-block">
+                    <ul class="list-inline d-flex justify-content-xl-end align-items-center h-100 mb-0">
+                        <li>
+                            <a class="btn btn-pink btn-sm" href="/Schools">School Login</a>
+                        </li>
+                        <li>
+                            <a class="ml-5 btn btn-warning btn-sm" href="/Tutors/Manage">Tutor Login</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5">
+                    <ul class="list-inline d-flex mb-0 justify-content-xl-end justify-content-md-center align-items-center mr-xl-2">
+                            <li class="text-white mr-3 mr-lg-2 mr-xl-5">
+                                <span class="bg-purple icon-header mr-2 mr-lg-1 mr-xl-2">
+                                    <i class="fa fa-unlock-alt text-white font-size-13" aria-hidden="true"></i>
+                                </span>
+                                <a class="text-white font-weight-medium opacity-80" href="/">Login</a>
+                                <span class="text-white opacity-80">or</span>
+                                <a class="text-white font-weight-medium opacity-80" href="/Register">Create an account</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-scrollUp navbar-sticky navbar-white">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img class="d-inline-block" src="assets/img/logo_old.png" alt="Karachi School Guide" style="max-width: 120px; margin-top:-60px">
+            </a>
+
+            <button class="navbar-toggler py-2" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item dropdown bg-warning">
+                        <a class="nav-link dropdown-toggle" href="/">
+                            <i class="fa fa-home nav-icon" aria-hidden="true"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown bg-danger">
+                        <a class="nav-link dropdown-toggle " href="/Parents">
+                            <i class="fa fa-male nav-icon" aria-hidden="true"></i>
+                            <span>Parents</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown bg-success">
+                        <a class="nav-link dropdown-toggle " href="/Jobs">
+                            <i class="fa fa-thumbs-up nav-icon" aria-hidden="true"></i>
+                            <span>Jobs</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown bg-info">
+                        <a class="nav-link dropdown-toggle " href="/Tutors">
+                            <i class="fa fa-child nav-icon" aria-hidden="true"></i>
+                            <span>Tutors</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown bg-purple">
+                        <a class="nav-link dropdown-toggle " href="/Events">
+                            <i class="fa fa-calendar nav-icon" aria-hidden="true"></i>
+                            <span>Events</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item dropdown bg-pink">
+                        <a class="nav-link dropdown-toggle " href="/Library">
+                            <i class="fa fa-shopping-bag nav-icon" aria-hidden="true"></i>
+                            <span>Library</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+    <!-- MAIN SECTION -->
+    <div class="container my-5">
+        <div class="col-md-12" style="">
+
+</div>
+
+<style>
+    .overlay {
+        position: absolute;
+        top: -60px;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+</style>
+        
+
+<div class="row">
+    <div class="d-none d-md-block col-lg-8">
+    <h1 class="text-green">Our Story</h1>
+    <p>
+        It is a pioneer in providing a unified platform to bridge the gap between parents, teachers, educators and students in order to bring them on a single page for an exchange of healthy information related to the field of education and activities which will aid to theconstructive development of kids.
+    </p>
+
+    <p>
+        <strong>
+            Our elementary objectives include:
+        </strong>
+    </p>
+
+    <ul>
+        <li>
+            To bring parents, teachers and students on one platform for better communication and discussions pertinent to education and extra co-curricular activities of kids.
+        </li>
+        <li>
+            To discuss all kinds of education systems prevailing these days in schools of Karachi.
+        </li>
+        <li>
+            Vigorous discussions for proficient parenting and schooling
+        </li>
+    </ul>
+</div>
+        <div class="col-lg-4">
+        <div class="bg-success rounded-top p-2">
+            <h3 class="text-white font-weight-bold mb-0 ml-2">Start Here</h3>
+        </div>
+        <div class="border rounded-bottom-sm border-top-0">
+            <div class="p-3">
+                <a class="btn btn-info btn-block text-uppercase" href="/Home/Login">Log In</a>
+            </div>
+
+            <div class="p-3">
+                <a class="btn btn-danger btn-block text-uppercase" href="/Register">Register</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    </div>
+
+    <!-- ====================================
+——— FOOTER
+===================================== -->
+
+<footer>
+    <div style="background-image: url(assets/img/footer-bg-img-1.png);">
+        <div class="container p-4 text-center">
+            <h1 class="text-white">Sign up for our mailing list to get latest updates and offers</h1>
+
+
+            <div class="container w-50">
+                <div class="input-group my-4 text-center">
+                    <input type="text" class="form-control form-control-lg" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text  bg-danger" id="basic-addon2">
+                            <i class="fas fa-envelope text-white fa-2x"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-2 d-flex justify-content-center">
+            <div class="px-3 link-white">
+                <a href="www.facebook.com" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+            </div>
+            <div class="px-3 link-white">
+                <a href="www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+            <div class="px-3 link-white">
+                <a href="www.twitter.com" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+            </div>
+            <div class="px-3 link-white">
+                <a href="www.youtube.com" target="_blank">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Copy Right -->
+</footer>
+
+
+<!--scrolling-->
+<div style="position: fixed; bottom: 20px; right: 20px">
+    <a href="#pageTop" style="opacity: 1;" class="bg-warning p-2 rounded">
+        <i class="fas fa-arrow-up text-white" aria-hidden="true"></i>
+    </a>
+</div>
+
+    
+<!-- Javascript -->
+<script src="assets/plugins/jquery.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/toastr.min.js"></script>
+
+
+
+
+</body>
+
+</html>
