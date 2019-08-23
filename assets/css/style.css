@@ -1,0 +1,48 @@
+body {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif !important; }
+
+.text-blue {
+  color: #00aeef !important;
+  opacity: 0.8;
+  transition: color 1s linear 1s; }
+  .text-blue :hover {
+    color: #20c997;
+    opacity: 1;
+    transition: color 0.3s linear; }
+
+.link-white a {
+  color: #fff !important;
+  opacity: 1;
+  transition: color 1s linear 1s; }
+  .link-white a :hover {
+    color: #dc3545 !important;
+    opacity: 1;
+    transition: color 0.3s linear; }
+
+.text-green {
+  color: #28a745 !important;
+  opacity: 0.8;
+  transition: color 1s linear 1s; }
+  .text-green :hover {
+    color: #20c997;
+    opacity: 1;
+    transition: color 0.3s linear; }
+
+.text-purple {
+  color: #6f42c1 !important;
+  opacity: 0.8;
+  transition: color 1s linear 1s; }
+  .text-purple :hover {
+    color: #20c997;
+    opacity: 1;
+    transition: color 0.3s linear; }
+
+.nav-item {
+  padding-right: 30px; }
+
+.font-size-20 {
+  font-size: 16px; }
+
+.font-size-10 {
+    font-size: 0.8rem; }

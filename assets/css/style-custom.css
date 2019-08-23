@@ -1,0 +1,88 @@
+body{
+	font-family: 'Monda', sans-serif !important;
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+.img-responsive{
+width: 100%;
+  height: auto;
+}
+.logo-resize{
+	width:70%;
+}
+
+
+#pageTop{
+	background:url(../img/background_inner.jpg);
+	padding:10px 0;
+}
+.social a.fab{
+	color:#fff;
+	margin:5px 10px 0 0;
+}
+.btn{
+	border-radius:0;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+}
+.btn:hover{
+	color:#ccc;	
+}
+.banner{
+	background: url(../img/slide2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+	overflow:hidden;
+}
+.banner .container{
+	background: rgba(0,0,0,0.7);
+    margin: 100px auto;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    bottom: 0;
+    padding: 15px 15px;
+}
+.navbar{
+	padding:0;
+}
+.nav-item {
+    padding-right: 0;
+	padding-left: 0;
+	border-right: 1px #fff solid;
+	font-weight:bold;
+}
+.navbar > .container, .navbar > .container-fluid {
+    display: block;
+ }
+.navbar-nav .nav-link {
+	background:#333;
+}
+.navbar-nav .nav-link.color1 {
+	background:#AB1870
+}
+.navbar-nav .nav-link.color2 {
+	background:#00AEEF
+}
+.navbar-nav .nav-link.color3 {
+	background:#81C341
+}
+.navbar-nav .nav-link.color4 {
+	background:#FCB040
+}
+
+
+.navbar-expand-sm .navbar-nav .nav-link {
+   padding:50px 30px;
+color: #fff;
+}
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+	background: #333;
+	color: #fff;
+}
